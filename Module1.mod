@@ -9,7 +9,7 @@ PROC main()
      
         FOR x FROM 0 TO 3 DO
         			p1 := Offs(p10,45 * x,0,0);
-        			MoveJ Offs(p1,0,0,150), v1000, z50, tool0;
+        			MoveJ Offs(p1,0,0,150), v100, z50, tool0;
         			MoveL p1, v100, fine, tool0;
         			WaitTime 1;
                     Set DO_KH;
@@ -23,5 +23,6 @@ PROC main()
         			WaitTime 1;
         			MoveL Offs(p2,0,0,150), v100, z50, tool0;
         ENDFOR
+        MoveAbsJ jpos10\NoEOffs, v1000, z50, tool0;
     ENDPROC
 ENDMODULE
