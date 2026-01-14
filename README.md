@@ -1,14 +1,6 @@
 # ABB-robot-studio-
-for循环
+profinet测试，主要以配置文件为主
 
-P10为取件点位
+自学通过profinet，利用PLC sim adv与PLC通讯
 
-P20为放件点位
-
-变量值是x
-
-Y轴循环4次
-
-单次偏移45
-
-过渡点为高度150
+但是现在还是在ABB找不到PLC sim
