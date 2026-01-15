@@ -8,7 +8,7 @@ PROC main()
         MoveAbsJ jpos10\NoEOffs, v1000, z50, tool0;
      
         FOR x FROM 0 TO 3 DO
-        			p1 := Offs(p10,45 * x,0,0);
+        			p1 := Offs(p10,0,45 * x,0);
         			MoveJ Offs(p1,0,0,150), v100, z50, tool0;
         			MoveL p1, v100, fine, tool0;
         			WaitTime 1;
